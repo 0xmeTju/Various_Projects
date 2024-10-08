@@ -1,0 +1,8 @@
+R 2 2 3 H #Red
+O 3 1 1 H #Orange
+Y 3 1 2 V #Yellow
+P 2 1 5 V #Purple
+G 3 4 1 V #Green
+B 3 4 6 H #Blue
+S 2 4 4 H #Grey
+F 3 6 1 V #Fuchsia

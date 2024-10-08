@@ -1,0 +1,18 @@
+{   
+    "population_size" : 100,
+    "population_count" : 100,
+    "random_genes" : 32,
+    "mutation_chance" : 4,
+    "selectrion_method" : "roulette",
+    "elite_ratio" : 5,
+    "dimensions" : 7,
+    "starting_position" : [4, 7],
+    "treasure_count" : 5,
+    "treasures" : {
+        "1" : [5, 2],
+        "2" : [3, 3],
+        "3" : [7, 4],
+        "4" : [2, 5],
+        "5" : [5, 6]
+    }
+}

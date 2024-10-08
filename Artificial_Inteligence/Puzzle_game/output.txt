@@ -1,0 +1,71 @@
+o->Vlavo Depth: 1
+g g . . . b
+o o . . . b
+r r y . . b
+. . y . . .
+p . y s s s
+p . . l l l
+
+y->Dole Depth: 2
+g g . . . b
+o o . . . b
+r r . . . b
+. . y . . .
+p . y s s s
+p . y l l l
+
+r->Vpravo Depth: 3
+g g . . . b
+o o . . . b
+. . . r r b
+. . y . . .
+p . y s s s
+p . y l l l
+
+y->Hore Depth: 4
+g g . . . b
+o o y . . b
+. . y r r b
+. . y . . .
+p . . s s s
+p . . l l l
+
+l->Vlavo Depth: 5
+g g . . . b
+o o y . . b
+. . y r r b
+. . y . . .
+p . . s s s
+p . l l l .
+
+b->Dole Depth: 6
+g g . . . .
+o o y . . b
+. . y r r b
+. . y . . b
+p . . s s s
+p . l l l .
+
+s->Vlavo Depth: 7
+g g . . . .
+o o y . . b
+. . y r r b
+. . y . . b
+p . s s s .
+p . l l l .
+
+b->Dole Depth: 8
+g g . . . .
+o o y . . .
+. . y r r .
+. . y . . b
+p . s s s b
+p . l l l b
+
+r->Vpravo Depth: 9
+g g . . . .
+o o y . . .
+. . y . r r
+. . y . . b
+p . s s s b
+p . l l l b

@@ -1,0 +1,94 @@
+sap:
+  0x0: SAP
+  0x2: LLC Sublayer Management / Individual
+  0x3: LLC Sublayer Management / Group
+  0x6: IP (DoD Internet Protocol)
+  0x14: PROWAY 
+  0x42: STP
+  0x4E: MMS
+  0x5E: ISI IP
+  0x7E: X.25 PLP 
+  0x8E: PROWAY (IEC 955)
+  0xE0: IPX
+  0xF0: NETBIOS
+  0xF4: LAN
+  0xFE: ISO
+
+pid:
+  0x2000: CDP
+  0x2004: DTP
+  0x010B: PVSTP+
+  0x809B: AppleTalk
+
+ether_type:
+  0x0806: ARP
+  0x0800: IPv4
+  0x88CC: LLDP
+  0x86DD: IPv6
+  0x9000: ECTP
+
+ipv4_protocol:
+  0x01: ICMP
+  0x02: IGMP
+  0x06: TCP
+  0x11: UDP
+  0x67: PIM
+
+tcp_protocol:
+  7: echo
+  19: CHARGEN
+  20: FTP-DATA
+  21: FTP-CONTROL
+  22: SSH
+  23: TELNET
+  25: SMTP  
+  53: DNS
+  79: FINGER
+  80: HTTP
+  110: POP3
+  111: SUNRPC
+  119: NNTP
+  137: NETBIOS-NS
+  139: NETBIOS-SSN
+  143: IMAP
+  162: SNMP-TRAP
+  179: BGP
+  389: LDAP
+  443: HTTPS
+  445: MICROSOFT-DS
+  514: SYSLOG
+  1080: SOCKS
+  17500: DB-LSP-DISC
+
+udp_protocol:
+  7: ECHO
+  19: CHARGEN
+  37: TIME
+  53: DNS
+  67: DHCP
+  68: DHCP
+  69: TFTP
+  80: HTTP
+  137: NETBIOS-NS
+  138: NETBIOS-DGM
+  161: SNMP
+  162: SNMP-TRAP
+  443: HTTPS
+  500: ISAKMP
+  514: SYSLOG
+  520: RIP
+  1900: SSDP
+  5353: MDNS
+  17500: DB-LSP-DISC
+  33434: TRACEROUTE
+
+arguments:
+  HTTP
+  HTTPS
+  TELNET
+  SSH
+  FTP-DATA
+  FTP-CONTROL
+  TFTP
+  ICMP
+  ARP
